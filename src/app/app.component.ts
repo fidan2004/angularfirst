@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'angularfirst';
+export class AppComponent { 
+  
+  text = ' No server was created';
+
+  onClick() 
+  {
+    this.text = ' Server was created';
+  }
 }
